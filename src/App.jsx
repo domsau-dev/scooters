@@ -108,7 +108,7 @@ function App() {
   return (
     <>
       <Statistics rideSum={rideSum} scooterCount={scooterCount}></Statistics>
-      <NewScooter addScooter={addScooter}></NewScooter>
+      <NewScooter addScooter={addScooter} fixDate={fixDate}></NewScooter>
       <Scooters scooters={scooters} editScooter={editScooter} deleteScooter={deleteScooter} fixDate={fixDate}></Scooters>
     </>
   );
